@@ -1,4 +1,4 @@
-This folder contains 2 Powershell Scripts:
+This contains 2 Powershell Scripts:
 
 1. compare-admx.ps1
 
@@ -14,6 +14,7 @@ this generates a file called comparison.txt. This file lists all parts of the AD
 2. get-admxCSV.ps1
 
 Use:
+
 ` .\get-admxCSV.ps1 `
 
 This expects two things:
