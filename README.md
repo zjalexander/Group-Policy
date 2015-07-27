@@ -5,7 +5,7 @@ This folder contains 2 Powershell Scripts:
 Use: 
 ``` .\compare-admx.ps1
 compare-admx "C:\Program Files (x86)\Microsoft Group Policy\Windows Server 2012\PolicyDefinitions" "C:\Program Files (x86)\Microsoft Group Policy\Windows 8.1-Windows Server 2012 R2\PolicyDefinitions" | out-file comparison.txt
-
+```
 If you have installed the two ADMX packages in ..\ADMX Packages
 this generates a file called comparison.txt. This file lists all parts of the ADMX which were only present in the old version of Windows.
 
@@ -14,7 +14,7 @@ this generates a file called comparison.txt. This file lists all parts of the AD
 2. get-admxCSV.ps1
 
 Use:
-.\get-admxCSV.ps1 
+` .\get-admxCSV.ps1 `
 
 This expects two things:
 1) ADMX files in the current directory
