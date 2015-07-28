@@ -1,6 +1,6 @@
 This contains 2 Powershell Scripts:
 
-1. compare-admx.ps1
+**compare-admx.ps1**
 
 Use: 
 ``` .\compare-admx.ps1
@@ -11,7 +11,7 @@ this generates a file called comparison.txt. This file lists all parts of the AD
 
 
 
-2. get-admxCSV.ps1
+**get-admxCSV.ps1**
 
 Use:
 
